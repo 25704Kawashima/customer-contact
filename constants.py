@@ -87,11 +87,13 @@ DB_COMPANY_PATH = "./.db_company"
 AI_AGENT_MAX_ITERATIONS = 5
 
 DB_SERVICE_PATH = "./.db_service"
+DB_WEB_SERVICE_PATH = "./.db_web_service"
 DB_CUSTOMER_PATH = "./.db_customer"
 
 DB_NAMES = {
     DB_COMPANY_PATH: f"{RAG_TOP_FOLDER_PATH}/company",
     DB_SERVICE_PATH: f"{RAG_TOP_FOLDER_PATH}/service",
+    DB_WEB_SERVICE_PATH: f"{RAG_TOP_FOLDER_PATH}/web_service",
     DB_CUSTOMER_PATH: f"{RAG_TOP_FOLDER_PATH}/customer"
 }
 
@@ -102,6 +104,8 @@ SEARCH_COMPANY_INFO_TOOL_NAME = "search_company_info_tool"
 SEARCH_COMPANY_INFO_TOOL_DESCRIPTION = "自社「株式会社EcoTee」に関する情報を参照したい時に使う"
 SEARCH_SERVICE_INFO_TOOL_NAME = "search_service_info_tool"
 SEARCH_SERVICE_INFO_TOOL_DESCRIPTION = "自社サービス「EcoTee」に関する情報を参照したい時に使う"
+SEARCH_WEB_SERVICE_INFO_TOOL_NAME = "search_web_service_tool"
+SEARCH_WEB_SERVICE_INFO_TOOL_DESCRIPTION = "自社Webサービス「EcoTee Creater」に関する情報を参照したい時に使う"
 SEARCH_CUSTOMER_COMMUNICATION_INFO_TOOL_NAME = "search_customer_communication_tool"
 SEARCH_CUSTOMER_COMMUNICATION_INFO_TOOL_DESCRIPTION = "顧客とのやりとりに関する情報を参照したい時に使う"
 SEARCH_WEB_INFO_TOOL_NAME = "search_web_tool"
